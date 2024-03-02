@@ -1,0 +1,63 @@
+body {
+	background-color: #634;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom left;
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1 { /* Nieklin.nl */
+	margin: 10px 0 0 0;
+	text-align: center;
+}
+
+div#footer {
+	background-color: rgba(0, 0, 0, 0.05);
+	bottom: 10px;
+	color: rgba(255, 255, 255, 0.1);
+	font-size: small;
+	padding: 7px;
+	position: absolute;
+	right: 10px;
+}
+
+.link-button {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	color: rgba(255, 255, 255, 0.9);
+	display: inline-block;
+	font-weight: bold;
+	padding: 2px 5px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+
+    border-radius: 4px;
+    -khtml-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+h1 span.link-button {
+	background-color: #745;
+	padding: 4px 50px;
+}
+
+a.link-button {
+    text-decoration: none;
+}
+
+a.link-button:hover {
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	color: rgba(255, 255, 255, 1.0);
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+div#footer a {
+	color: rgba(255, 255, 255, 0.15);
+    text-decoration: none;
+}
+
+div#footer a:hover {
+	color: rgba(255, 255, 255, 0.35);
+    text-decoration: underline;
+}
