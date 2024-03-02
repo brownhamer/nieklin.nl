@@ -1,5 +1,5 @@
 body {
-	background-color: #634;
+	background-color: rgb(102 51 68);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom left;
@@ -9,14 +9,14 @@ body {
 }
 
 h1 { /* Nieklin.nl */
-	margin: 10px 0 0 0;
+	margin: 10px 0 0;
 	text-align: center;
 }
 
 div#footer {
-	background-color: rgba(0, 0, 0, 0.05);
+	background-color: rgb(0 0 0 / 5%);
 	bottom: 10px;
-	color: rgba(255, 255, 255, 0.1);
+	color: rgb(255 255 255 / 10%);
 	font-size: small;
 	padding: 7px;
 	position: absolute;
@@ -24,21 +24,17 @@ div#footer {
 }
 
 .link-button {
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	color: rgba(255, 255, 255, 0.9);
+	border: 1px solid rgb(0 0 0 / 10%);
+	color: rgb(255 255 255 / 90%);
 	display: inline-block;
 	font-weight: bold;
 	padding: 2px 5px;
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
-
+	text-shadow: 1px 1px 1px rgb(0 0 0 / 30%);
     border-radius: 4px;
-    -khtml-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
 }
 
 h1 span.link-button {
-	background-color: #745;
+	background-color: rgb(119 68 85);
 	padding: 4px 50px;
 }
 
@@ -47,17 +43,17 @@ a.link-button {
 }
 
 a.link-button:hover {
-	border: 1px solid rgba(255, 255, 255, 0.1);
-	color: rgba(255, 255, 255, 1.0);
-	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+	border: 1px solid rgb(255 255 255 / 10%);
+	color: rgb(255 255 255);
+	text-shadow: 1px 1px 2px rgb(0 0 0 / 70%);
 }
 
 div#footer a {
-	color: rgba(255, 255, 255, 0.15);
+	color: rgb(255 255 255 / 15%);
     text-decoration: none;
 }
 
 div#footer a:hover {
-	color: rgba(255, 255, 255, 0.35);
+	color: rgb(255 255 255 / 35%);
     text-decoration: underline;
 }
